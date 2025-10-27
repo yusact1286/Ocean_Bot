@@ -1,0 +1,7 @@
+services:
+    - type: web
+      name: tradingview-bot
+      env: python
+      buildCommand: ""
+      startCommand: "python ocean.py"
+      plan: free
